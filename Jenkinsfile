@@ -13,7 +13,7 @@ pipeline {
     }
 
     environment {
-      PATH="root/miniconda2/bin:$PATH"
+      PATH="root/miniconda2/bin"
     }
 
     stages {
