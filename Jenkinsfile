@@ -11,7 +11,7 @@ pipeline {
     }
 
     environment {
-      PATH="root/miniconda3/bin:$PATH"
+      PATH="/root/miniconda3/bin:$PATH"
       
     }
 
