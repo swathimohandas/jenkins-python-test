@@ -11,7 +11,8 @@ pipeline {
     }
 
     environment {
-      PATH="root/miniconda3/bin"
+      PATH="root/miniconda3/bin:$PATH"
+      
     }
 
     stages {
